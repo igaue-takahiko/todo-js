@@ -2,20 +2,21 @@
 <html>
 
 <head>
+    <meta name="viewport" content="initial-scale=1, minimum-scale=1, width=device-width">
     <title>TODO (JS)</title>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./src/style.css">
 </head>
 
 <body>
     <div class="input-area">
-        <input placeholder="TODOを入力"/>
-        <button>追加</button>
+        <input id="add-text" placeholder="TODOを入力"/>
+        <button id="add-button">追加</button>
     </div>
-    <div class="incompleta-area">
+    <div class="incomplete-area">
         <p class="title">未入力のTODO</p>
-        <ul>
-            <div class="list-row ">
+        <ul id="incomplete-list">
+            <div class="list-row">
                 <li>TODOです</li>
                 <button>完了</button>
                 <button>削除</button>
@@ -24,14 +25,14 @@
     </div>
     <div class="complete-area">
         <p class="title">完了したTODO</p>
-        <ul>
+        <ul id="complete-list">
             <div class="list-row">
                 <li>TODOでした</li>
                 <button>戻す</button>
             </div>
         </ul>
     </div>
-    <script src="src/index.js"></script>
+    <script src="./src/index.js"></script>
 </body>
 
 </html>

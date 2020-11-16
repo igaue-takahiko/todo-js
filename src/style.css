@@ -13,6 +13,7 @@ button {
     border-radius: 16px;
     border: none;
     padding: 4px 16px;
+    outline: none;
 }
 
 button:hover {
@@ -34,7 +35,7 @@ li {
     border-radius: 8px;
 }
 
-.incompleta-area {
+.incomplete-area {
     background-color: #c6ffe2;
     width: 400px;
     min-height: 200px;
